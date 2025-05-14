@@ -1,9 +1,8 @@
 import React from "react";
 import About from "./About";
 import Insight from "./Insight";
-import image1 from '../assets/image1.png';
-import image2 from '../assets/image2.png';
-import image3 from '../assets/image3.png';
+import image1 from './Assets/image1.png';
+import image2 from './Assets/image2.png';
 import Dashboard from "../dashboard/DashBoards";
 import { HashLink as Link } from 'react-router-hash-link';
 
