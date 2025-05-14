@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import About from '../home/About';
+import Insight from '../home/insight';
 import { HashLink as Link } from 'react-router-hash-link';
 import BudgetForm from '../BudgetForm/BudgetForm';
 import { BudgetContext } from "../../Context/BudgetContext";
@@ -10,10 +11,19 @@ function Dashboards() {
 
   if (!budgetData) return (
     <div className='flex flex-col justify-center items-center space-y-5'>
-      <p className="text-center">No data submitted yet 🤷‍♀️</p> 
-      <a href="/BudgetForm" className="w-fit  rounded-4xl inline-block bg-[#0cec40]/70 text-gray-800 font-semibold px-6 py-3 shadow-md hover:shadow-lg hover:scale-105 transition">
+      <p className="text-center mt-50">No data submitted yet 🤷‍♀️</p> 
+      <a href="/BudgetForm" className="mb-75 rounded-4xl inline-block bg-[#0cec40]/70 text-gray-800 font-semibold px-6 py-3 shadow-md hover:shadow-lg hover:scale-105 transition">
           Enter here
       </a>
+      <nav className="w-full max-w-full fixed top-0 box-border px-5 py-4 bg-[#0cec40]/70 rounded-b-4xl flex justify-between items-center shadow-sm overflow-hidden z-10 ">
+        <h1 className="text-2xl font-extrabold text-emerald-800">BudgetBuddyAI</h1>
+        <ul className="hidden sm:flex space-x-6 text-gray-800 font-bold">
+          <li><Link to="/" className="hover:text-emerald-600 cursor-pointer">Home</Link></li>
+          <li><Link to="/dashboard" className="hover:text-emerald-600 cursor-pointer">Dashboard</Link></li>
+          <li><Link smooth to="/#insight" className="hover:text-emerald-600 cursor-pointer">Insights</Link></li>
+          <li><Link to="/#about" className="hover:text-emerald-600 cursor-pointer">About</Link></li>
+        </ul>
+      </nav>
     </div>
   );
 
@@ -31,7 +41,7 @@ function Dashboards() {
         <ul className="hidden sm:flex space-x-6 text-gray-800 font-bold">
           <li><Link to="/" className="hover:text-emerald-600 cursor-pointer">Home</Link></li>
           <li><Link to="/dashboard" className="hover:text-emerald-600 cursor-pointer">Dashboard</Link></li>
-          <li><a href="/dashboard" className="hover:text-emerald-600 cursor-pointer">Insights</a></li>
+          <li><Link smooth to="/#insight" className="hover:text-emerald-600 cursor-pointer">Insights</Link></li>
           <li><Link to="/#about" className="hover:text-emerald-600 cursor-pointer">About</Link></li>
         </ul>
       </nav>
@@ -100,10 +110,10 @@ function Dashboards() {
         </div>
 
         <div className="bg-white p-4 rounded-xl shadow mx-4">
-          <h3 className="text-lg font-semibold mb-2">Smart Suggestions 🧠</h3>
+          <h3 className="text-lg font-semibold mb-2">Smart Suggestions </h3>
           <ul className="text-sm space-y-2 text-slate-600">
-            <li>👉 Consider reducing food delivery (₹2,400 this month)</li>
-            <li>👉 Subscription to Spotify unused in 30 days</li>
+            <li>👉 Coming soon</li>
+            <li>👉 Cominng soon</li>
           </ul>
         </div>
       </div>

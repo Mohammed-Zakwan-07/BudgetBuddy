@@ -14,17 +14,13 @@ function About() {
 
       <h1 className="text-6xl font-extrabold m-10 ml-20">Features</h1>
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto px-6">
-        <div className="shadow-2xl p-4 m-10 rounded-xl text-center hover:bg-[#0cec40]/70 hover:shadow-lg hover:-translate-y-1 duration-300 ease-in-out transition-all"> 
+        <div className="shadow-2xl p-4 m-10 rounded-xl text-center hover:bg-[#0cec40]/70 hover:-translate-y-1 duration-300 ease-in-out transition-all"> 
           <p className="font-bold m-3">Smart Insights</p>
           <p>Using AI, we analyze your income, spending patterns, and financial goals to give real-time suggestions — not just charts.</p>
         </div>
         <div className="shadow-2xl p-4 m-10 rounded-xl text-center hover:bg-[#0cec40]/70 hover:-translate-y-1 duration-300 ease-in-out transition-all">
           <p className="font-bold m-3">Clean UI</p>
           <p>A modern dashboard built with React + Tailwind, giving you the tools to visualize your money in a way that actually makes sense.</p>
-        </div>
-        <div className="shadow-2xl p-4 m-10 rounded-xl text-center hover:bg-[#0cec40]/70 hover:-translate-y-1 duration-300 ease-in-out transition-all">
-          <p className="font-bold m-3">AI-Powered Categorization</p>
-          <p>Stop sorting receipts manually. Our system auto-classifies your expenses and even predicts what’s recurring.</p>
         </div>
         <div className="shadow-2xl p-4 m-10 rounded-xl text-center hover:bg-[#0cec40]/70 hover:-translate-y-1 duration-300 ease-in-out transition-all">
           <p className="font-bold m-3">You Own Your Data</p>

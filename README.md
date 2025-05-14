@@ -1,6 +1,6 @@
 # 💸 BudgetBuddyAI
 
-BudgetBuddyAI is a personal budgeting dashboard that helps users track income, expenses, and savings goals. Built with React and Tailwind CSS, it offers an intuitive and modern UI for managing finances, tracking transactions, and visualizing spending patterns.
+BudgetBuddy is a personal budgeting dashboard that helps users track income, expenses, and savings goals. Built with React and Tailwind CSS, it offers an intuitive and modern UI for managing finances, tracking transactions, and visualizing spending patterns.
 
 ---
 
@@ -56,11 +56,11 @@ src/
 
 - Clone the repo and install dependencies:
 
-- git clone https://github.com/Mohammed-Zakwan-07/BudgetBuddyAI.git
+git clone https://github.com/Mohammed-Zakwan-07/BudgetBuddyAI.git
 
-- cd BudgetBuddyAI
+cd BudgetBuddyAI
 
-- npm install
+npm install
 
 ## 📝 To-Do
 
