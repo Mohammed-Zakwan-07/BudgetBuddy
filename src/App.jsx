@@ -7,7 +7,7 @@ import About from './components/pages/home/About';
 import DashBoards from './components/pages/dashboard/DashBoards';
 import BudgetForm from './components/pages/BudgetForm/BudgetForm';
 import Insight from './components/pages/home/Insight';
-import Footer from './components/pages/home/footer';
+import Footer from './components/pages/home/Footer';
 
 function App() {
   return (
