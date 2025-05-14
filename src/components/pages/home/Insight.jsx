@@ -4,7 +4,7 @@ import image3 from './Assets/image3.png';
 
 function Insight() {
   return (
-    <section id='insight' className="mt-150 ml-20">
+    <section id='#insight' className="mt-150 ml-20">
       <h1 className="text-6xl font-bold text-gray-800 mb-12">Insights</h1>
       
       <div className="flex justify-center items-start gap-10 flex-wrap m-10">
