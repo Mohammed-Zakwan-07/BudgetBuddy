@@ -1,4 +1,3 @@
-// src/context/BudgetContext.js
 import { createContext, useState } from "react";
 
 export const BudgetContext = createContext();
