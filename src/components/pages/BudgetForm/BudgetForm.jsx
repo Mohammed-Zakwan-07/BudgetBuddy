@@ -1,6 +1,4 @@
 import { useState } from "react";
-import React from "react";
-import Dashboard from "../dashboard/DashBoards";
 import { HashLink as Link } from 'react-router-hash-link';
 import { useContext } from "react";
 import { useNavigate } from "react-router-dom";

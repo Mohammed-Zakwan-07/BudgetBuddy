@@ -1,7 +1,4 @@
-import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-
 import Hero from './components/pages/home/Hero';
 import About from './components/pages/home/About';
 import DashBoards from './components/pages/dashboard/DashBoards';
