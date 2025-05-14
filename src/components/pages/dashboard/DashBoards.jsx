@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import About from '../home/About';
-import Insight from '../home/insight';
+import Insight from '../home/Insight';
 import { HashLink as Link } from 'react-router-hash-link';
 import BudgetForm from '../BudgetForm/BudgetForm';
 import { BudgetContext } from "../../Context/BudgetContext";
