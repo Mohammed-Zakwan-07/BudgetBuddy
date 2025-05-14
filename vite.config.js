@@ -8,5 +8,6 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
+  base: process.env.VITE.BASE.PATH || "/BudgetBuddy",
 })
   
