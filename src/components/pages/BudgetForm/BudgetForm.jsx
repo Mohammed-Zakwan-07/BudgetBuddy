@@ -1,3 +1,4 @@
+import React from "react";
 import { useState } from "react";
 import { HashLink as Link } from 'react-router-hash-link';
 import { useContext } from "react";
@@ -16,13 +17,11 @@ const BudgetForm = () => {
     savingsGoals: [{ name: '', targetAmount: '', savedAmount: '' }],
   });
 
-  // 🧠 Update Form State
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  // 💸 Update Expense Fields
   const handleExpenseChange = (index, e) => {
     const { name, value } = e.target;
     const updatedExpenses = [...formData.expenses];
@@ -30,7 +29,6 @@ const BudgetForm = () => {
     setFormData((prev) => ({ ...prev, expenses: updatedExpenses }));
   };
 
-  // 🏦 Update Goal Fields
   const handleGoalChange = (index, e) => {
     const { name, value } = e.target;
     const updatedGoals = [...formData.savingsGoals];
@@ -38,7 +36,6 @@ const BudgetForm = () => {
     setFormData((prev) => ({ ...prev, savingsGoals: updatedGoals }));
   };
 
-  // ➕ Add expense/goal row
   const addExpense = () =>
     setFormData((prev) => ({
       ...prev,
@@ -54,7 +51,7 @@ const BudgetForm = () => {
     const handleSubmit = (e) => {
     e.preventDefault();
     setBudgetData(formData);
-    navigate("/dashboard"); // or "/DashBoards" if that's the route
+    navigate("/dashboard");
   };
 
   return (

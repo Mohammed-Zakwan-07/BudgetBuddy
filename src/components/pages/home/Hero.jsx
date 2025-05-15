@@ -1,3 +1,5 @@
+import Insight from './Insight';
+import BudgetForm from '../BudgetForm/BudgetForm';
 import image1 from './Assets/image1.png';
 import image2 from './Assets/image2.png';
 import { HashLink as Link } from 'react-router-hash-link';
