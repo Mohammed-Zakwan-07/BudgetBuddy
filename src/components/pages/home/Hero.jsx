@@ -26,7 +26,7 @@ function Hero (){
         <p className="text-2xl sm:text-xl text-gray-800 mb-8 w-160 ">
           Track your income and expenses. Get actionable insights. Take control of your money — finally.
         </p>
-        <a href="/#about" className="w-fit rounded-4xl inline-block bg-[#0cec40]/70 text-gray-800 font-semibold px-6 py-3 shadow-md hover:shadow-lg hover:scale-105 transition-all duration-250">
+        <a href="/BudgetForm" className="w-fit rounded-4xl inline-block bg-[#0cec40]/70 text-gray-800 font-semibold px-6 py-3 shadow-md hover:shadow-lg hover:scale-105 transition-all duration-250">
           Track now
         </a>
         </div>
