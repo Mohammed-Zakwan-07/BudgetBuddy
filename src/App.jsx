@@ -9,18 +9,10 @@ import Footer from './components/pages/home/Footer';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={
-        <>
-          <Hero />
-          <About/>
-          <Insight />
-          <Footer/>
-        </>
-      }/>
-      <Route path="/BudgetForm" element={<BudgetForm/>} />
+      <Route path="/" element={<><Hero /><About /><Insight /><Footer /></>}/>
+      <Route path="/BudgetForm" element={<BudgetForm />} />
       <Route path="/dashboard" element={<DashBoards />} />
     </Routes>
-
   );
 }
 
